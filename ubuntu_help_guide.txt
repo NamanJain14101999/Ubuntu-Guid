@@ -1,0 +1,80 @@
+-> mkdir name - make directory
+
+-> rmdir name - remove directory if only no folder inside it their
+
+-> rm name - it will delete that file 
+
+-> touch name.extension - it will create that file
+
+-> touch .name.extension - it will create hidden file
+
+-> pwd - print working director
+
+-> cd - change directory
+
+-> cd /  -  root directory
+
+-> cd .. - move back one directory
+
+-> cd name_d - move to forward directory
+
+-> sudo - super user
+
+-> sudo apt-get update - for system app. update in list
+
+-> sudo apt-install software_name - to install new software in system
+
+-> sudo apt-get upgrade - for system app. upgrade in system
+
+-> mv source destination
+ex- mv test.txt test1.txt - if it is in same directory it will be rename 
+ex- mv test.txt home/new - it will cut and paste in new folder
+
+-> cp source destination
+ex- cp test.txt home/new - it will make copy in destination folder
+
+-> ls - list of directory
+
+-> ls -a  - show hidden file
+-> ls -r  - reverse sort
+-> ls -t  - sort using time
+-> ls -R  - it will show tree structure of complete directory
+-> ls -l - it will show permission
+-> ls -la - it will show all the permission of file in that folder
+-> ls -lart  - complete list display , for hidden file , reverse sort , time sort
+d->dorectory
+- ->file
+read[4],write[2],execute[1] 
+rwe   rwe   rwe
+---   ---   ---
+user  group  other
+-> chmod code file_name - it is used to change the permission of file and folder 
+ex-> chmod 777 one.txt
+
+-> chgrp - to change the group
+
+-> clear   - to clear the screen
+
+-> history - it will show all the command that you have typed recently
+
+-> echo - to print on terminal
+ex- echo naman
+naman
+
+->printf "naman jain" - to print on terminal
+
+-> top - it will show list, which show all the resources which are using in descendin order
+to exit from it enter+q
+
+-> ps - it will list all the process which are in running right now
+-> ps -a - it will background processes also
+
+-> kill PID - to kill the process
+
+-> vim - it is a text editor
+i for insert 
+esc + : + q ->  direct exit without saving
+esc + : + q +w -> saving and exiting
+esc + : + q + ! -> not for saving the update in file 
+
+ 
